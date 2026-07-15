@@ -57,13 +57,13 @@ class Authenticator:
             with st.form("login_form"):
                 username = st.text_input("Username", placeholder="Enter your username")
                 password = st.text_input("Password", type="password", placeholder="Enter your password")
-                remember_me = st.checkbox("Remember me")
+                #remember_me = st.checkbox("Remember me")
                 
-                col_a, col_b = st.columns(2)
+                col_a = st.columns(1)
                 with col_a:
                     login_button = st.form_submit_button("Login", use_container_width=True, type="primary")
-                with col_b:
-                    oauth_button = st.form_submit_button("OAuth Login 🔗", use_container_width=True)
+                #with col_b:
+                    #oauth_button = st.form_submit_button("OAuth Login 🔗", use_container_width=True)
                 
                 if login_button:
                     if self.check_password(username, password):
@@ -80,8 +80,8 @@ class Authenticator:
                     else:
                         st.error("❌ Invalid username or password")
                 
-                if oauth_button:
-                    st.info("🔗 OAuth integration (Google/GitHub) available in enterprise version")
+                #if oauth_button:
+                    #st.info("🔗 OAuth integration (Google/GitHub) available in enterprise version")
             
             # Demo credentials (only show in development mode)
             if not (hasattr(st, 'secrets') and 'users' in st.secrets):
