@@ -47,9 +47,9 @@ else:
     # Header with logout
     col1, col2 = st.columns([6, 1])
     with col1:
-        st.markdown("<p style='font-family: impact; font-size: 80px; font-style: italic; text-align: center; margin-bottom: 0px;'>Future1</p>", unsafe_allow_html=True)
-        st.markdown(f"<p style='font-family: impact; font-size: 10px; text-align: center; margin-top: 0px;'>Developed by Linh Tran & Minh Tran</p>", unsafe_allow_html=True)
-        st.markdown(f"<p style='font-family: impact; font-size: 14px; text-align: center; margin-top: 0px;'>Pro Edition | User: {st.session_state.username}</p>", unsafe_allow_html=True)
+        st.markdown("<p style='font-family: impact; font-size: 100px; font-style: italic; text-align: center; margin-bottom: 0px;'>Future1</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='font-family: impact; font-size: 18px; text-align: center; margin-top: 0px;'>Developed by Linh Tran - Vietnam</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='font-family: impact; font-size: 14px; text-align: center; margin-top: 0px;'>User: {st.session_state.username}</p>", unsafe_allow_html=True)
     with col2:
         if st.button("Logout", use_container_width=True):
             auth.logout()
