@@ -868,8 +868,8 @@ def render(df):
                             st.markdown("---")
                 else:
                     st.warning("⚠️ No groups match these filters. Try different combinations.")
-            #else:
-                # Show overall forecast (aggregated across all groups)
+            else:
+                 Show overall forecast (aggregated across all groups)
                 #st.info("📊 **Viewing:** Overall/Aggregated forecast (Sum of matching groups)")
                 #if selected_filters:
                     #filter_summary = ', '.join([f"{k}={v}" for k, v in selected_filters.items()])
