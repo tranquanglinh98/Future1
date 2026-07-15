@@ -1,0 +1,16 @@
+streamlit==1.36.0
+pandas>=2.2.2
+numpy>=1.26.0
+statsmodels>=0.14.0
+prophet
+cmdstanpy
+matplotlib
+seaborn
+plotly-express
+openpyxl
+xlsxwriter
+scikit-learn>=1.4.0
+ipywidgets
+xlwings
+scipy>=1.11.0
+pytest>=8.0.0
