@@ -96,12 +96,12 @@ class Authenticator:
                     """)
             
             # Security features
-            st.markdown("---")
-            st.markdown("🔒 **Security Features:**")
-            st.markdown("- SHA-256 password hashing")
-            st.markdown("- Session management")
-            st.markdown("- Role-based access control")
-            st.markdown("- Encrypted data transmission")
+            #st.markdown("---")
+            #st.markdown("🔒 **Security Features:**")
+            #st.markdown("- SHA-256 password hashing")
+            #st.markdown("- Session management")
+            #st.markdown("- Role-based access control")
+            #st.markdown("- Encrypted data transmission")
     
     def logout(self):
         """Logout current user"""

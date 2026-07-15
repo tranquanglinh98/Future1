@@ -46,13 +46,6 @@ def render(df):
         - XGBoost
         - Facebook Prophet
         
-        #### 🚀 Quick Start Guide
-        
-        1. **Upload Data**: Click "Upload Data File" in the sidebar
-        2. **Explore Models**: Navigate through different forecasting methods
-        3. **Compare Performance**: Use "Multi-Model AI" to test all models
-        4. **Generate Forecasts**: Let AI select the best model automatically
-        5. **Export Results**: Download your forecasts for reporting
         """)
     
     with col2:
@@ -73,12 +66,7 @@ def render(df):
         if 'user_role' in st.session_state:
             st.success(f"Role: {st.session_state.user_role.upper()}")
         
-        st.markdown("---")
-        st.markdown("### 📚 Resources")
-        st.markdown("- [User Guide](#)")
-        st.markdown("- [API Documentation](#)")
-        st.markdown("- [Video Tutorials](#)")
-        st.markdown("- [Contact Support](#)")
+
     
     if df is not None:
         st.markdown("---")

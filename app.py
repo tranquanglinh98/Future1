@@ -109,4 +109,3 @@ else:
     st.sidebar.markdown("---")
     st.sidebar.markdown("**Future1 Pro v2.0**")
     st.sidebar.markdown("© 2024 - Advanced ML Forecasting")
-    st.sidebar.markdown("[📖 Documentation](#) | [🐛 Report Bug](#)")
